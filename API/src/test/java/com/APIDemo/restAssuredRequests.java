@@ -39,7 +39,7 @@ public class restAssuredRequests {
 	RequestSpecification request;
 	
 	@Test(priority=2,description="Updating the existing resourse")
-	public void updateResource()
+	public void updatePutResource()
 	{
 		//To initiate the updated payload
 		String requestBody="{\r\n"
